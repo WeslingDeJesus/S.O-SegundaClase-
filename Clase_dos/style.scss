@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f55;
+}
+.container_respuestas{
+    display: flex;
+    margin: 150px 80px;
+}
+.respuesta01{
+    color: #fff;
+    font-size: 25px;
+}
+.respuesta01 b{
+    color: #f3bc88;
+    font-size: 1.3em;
+}
+.respuesta02{
+    color: #fff;
+    font-size: 25px;
+}
+.respuesta02 b{
+    color: #fff762;
+    font-size: 1.3em;
+}
+.respuesta03{
+    color: #fff;
+    font-size: 25px;
+}
+.respuesta03 b{
+    color: #7cf5e1;
+    font-size: 1.3em;
+}
+.container_preguntas{
+    display: flex;
+    margin: 150px 80px;
+}
+.content_preguntas{
+    color: #fff;
+    font-size: 25px;
+}
+.content_preguntas b{
+    color: #fff762;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.preguntas{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3bc88;
+    text-decoration: none;
+    color: #616161;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.preguntas:hover{
+    background: #ffe9d4;
+    color: #f3bc88;
+    padding: 1.8em;
+    transition: .2s ease-in;
+}
+.preguntas:not(:hover){
+   padding: 1em;
+   transition: .2s ease-in;
+}
+.respuestas{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfd75;
+    text-decoration: none;
+    color: #616161;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.respuestas:hover{
+    background: #f6f6a0;
+    color: #c3c317;
+    padding: 1.8em;
+    transition: .2s ease-in;
+}
+.respuestas:not(:hover){
+   padding: 1em;
+   transition: .2s ease-in;
+}
